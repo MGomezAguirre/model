@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Clasificador App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <meta charSet="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+   <section class="header">
+      <h2> Clasificador (prueba concepto) </h2>
+      <p>Suba la imagen de un auto o rueda (Frente, Rueda, etc.):</p>
+      <input type="file" id="image" accept="image/*">
+    </section>
+
+    <section class="content">
+      <div class="image_content">
+        <img src="" alt="" id="imageContainer">
+      </div>
+      <p id="imageClass">
+      </p>
+    </section>
+  </body>
+</html>
