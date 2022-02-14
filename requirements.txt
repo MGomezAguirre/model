@@ -4,9 +4,3 @@ numpy==1.18.5
 Flask==1.0.2
 Pillow==3.0.0
 h5py==2.10.0
-importlib-metadata==4.11.0
-typing-extensions==4.1.0
-zipp==3.7.0
-google-pasta==0.2.0
-filelock==3.4.2
-distlib==0.3.4
